@@ -1,5 +1,5 @@
 from collections import deque
-from typing import Optional
+from typing import Optional, List
 
 
 class TreeNode:
@@ -63,9 +63,13 @@ class Solution:
         else:
             return False
 
-list1 = [3,5,1,6,2,9,8,None,None,7,4]
-list2 = [3,5,1,6,7,4,2,None,None,None,None,None,None,9,8]
-tree1 = build_tree_from_list(list1)
-tree2 = build_tree_from_list(list2)
+
+
+# list1 = [3,5,1,6,2,9,8,None,None,7,4]
+# list2 = [3,5,1,6,7,4,2,None,None,None,None,None,None,9,8]
+# tree1 = build_tree_from_list(list1)
+# tree2 = build_tree_from_list(list2)
 s = Solution()
-s.leafSimilar(tree1,tree2)
+# s.leafSimilar(tree1,tree2)
+c = [4,3,6,1,None,5,None,None,2]
+tree = build_tree_from_list(c)
